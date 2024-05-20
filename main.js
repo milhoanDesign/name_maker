@@ -23,12 +23,13 @@ const funnyLastNames = [
     "Puddlejumper"
 ];
 
-
+// - Generate a random last name from the funnyLastNames array
 function getRandomLastName() {
     const randomIndex = Math.floor(Math.random() * funnyLastNames.length);
     return funnyLastNames[randomIndex];
 }
 
+// - Get the first name from #firstname and trim the whitespace
 function generateFunnyName() {
     const firstName = firstNameInput.value.trim();
     if (firstName !== "") {
