@@ -4,24 +4,25 @@ const resetButton = document.getElementById('reset');
 const funnyNameDisplay = document.getElementById('funny-name');
 
 const funnyLastNames = [
-    "McGiggles", 
-    "BananaHammock", 
-    "Snickerbottom", 
-    "Wobblepants", 
-    "Tickletoes",
-    "Fuzzykins",
-    "Bumblefluff",
-    "Jellybean",
     "Whiskerfidget",
-    "Puddingworth",
-    "Giggleblossom",
-    "Sprinkles",
-    "Twinkletoes",
-    "Chuckles",
-    "Dinglehopper",
-    "Bananabread",
-    "Fluffernutter"
+    "Fluffernutter",
+    "Snugglepaws",
+    "Barkington",
+    "Purrmuffin",
+    "Wigglebutt",
+    "Fuzzball",
+    "Waggytail",
+    "Mittens",
+    "Sprinklepaws",
+    "Snickerdoodle",
+    "Cuddlebug",
+    "Pawsworth",
+    "Meowzers",
+    "Rufflebottom",
+    "Snugglekins",
+    "Puddlejumper"
 ];
+
 
 function getRandomLastName() {
     const randomIndex = Math.floor(Math.random() * funnyLastNames.length);
